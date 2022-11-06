@@ -12,6 +12,8 @@ import { AuthContextProvider } from './src/contexts/AuthContext';
 import { THEME } from './src/styles/theme';
 import { NewPoll } from './src/screens/New';
 import { Find } from './src/screens/Find';
+import { SignIn } from './src/screens/SignIn';
+import { Routes } from './src/routes';
 
 export default function App() {
 
@@ -26,7 +28,7 @@ export default function App() {
         translucent
       />
 
-      { fontsLoaded ? <Polls/> : <Loading /> }
+      { fontsLoaded ? <Routes /> : <Loading /> }
       </AuthContextProvider>
     </NativeBaseProvider>
   );
