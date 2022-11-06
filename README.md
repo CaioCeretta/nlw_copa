@@ -1,2 +1,2 @@
 
-# Reposity of the event NLW copa
+# Repository of the event NLW copa
